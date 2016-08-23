@@ -1,1 +1,0 @@
-package com.aspire.daydreaming.core.model;/** * @Name: CreatedResult * @Author: yeliang * @Date: 2016/8/23 */public class CreatedResult {    public String createdAt;    public String objectId;    public String url;}

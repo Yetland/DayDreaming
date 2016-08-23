@@ -7,6 +7,7 @@ import android.util.Log;
 
 import com.aspire.daydreaming.core.app.DDApplication;
 import com.aspire.daydreaming.core.dagger2.component.AppComponent;
+import com.aspire.daydreaming.core.dagger2.component.DaggerApiComponent;
 import com.aspire.daydreaming.core.dagger2.module.ApiModule;
 import com.aspire.daydreaming.core.utils.TUtil;
 
@@ -35,12 +36,18 @@ public abstract class BaseActivity<T extends BasePresenter, E extends BaseModel>
         setupActivityComponent(DDApplication.get(this).getAppComponent());
         this.initView(savedInstanceState);
     }
-    protected abstract void setupActivityComponent(AppComponent appComponent);
+
+    private void setupActivityComponent(AppComponent appComponent) {
+        DaggerApiComponent.builder()
+                .apiModule(new ApiModule(this))
+                .appComponent(appComponent)
+                .build()
+                .inject(this);
+    }
 
     protected ApiModule getApiModule() {
         return new ApiModule(this);
     }
-
 
     @Override
     protected void onDestroy() {

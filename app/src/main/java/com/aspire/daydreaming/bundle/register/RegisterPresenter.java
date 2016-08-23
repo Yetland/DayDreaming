@@ -1,1 +1,1 @@
-package com.aspire.daydreaming.bundle.register;/** * @Name: RegisterPresenter * @Author: yeliang * @Date: 2016/8/23 */public class RegisterPresenter {}
+package com.aspire.daydreaming.bundle.register;/** * @Name: RegisterPresenter * @Author: yeliang * @Date: 2016/8/23 */public class RegisterPresenter extends RegisterContract.Presenter {}

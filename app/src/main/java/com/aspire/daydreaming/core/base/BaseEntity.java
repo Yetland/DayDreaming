@@ -5,23 +5,22 @@ import java.util.Map;
 
 import rx.Observable;
 
+import static com.avos.avoscloud.Messages.CommandType.error;
+
 /**
  * Created by yeliang
  * On 2016/7/25
  */
 public interface BaseEntity {
     class BaseBean implements Serializable {
-        public long id;
-        public int code;
-        public String error;
         public String objectId;
+        public String updatedAt;
+        private String createdAt;
         public Map<String, String> param;
 
         @Override
         public String toString() {
             return "BaseBean{" +
-                    "id=" + id +
-                    ", code=" + code +
                     ", error='" + error + '\'' +
                     ", objectId='" + objectId + '\'' +
                     ", param=" + param +

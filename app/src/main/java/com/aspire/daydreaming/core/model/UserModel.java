@@ -7,100 +7,140 @@ import java.io.Serializable;
 
 public class UserModel extends BaseEntity.BaseBean implements Serializable {
 
-	private String phoneNumber;
-	private String password;
-	private String registerTime;
-	private String email;
-	private String userStatus;
-	private String nick;
-	private String sex;
-	private String sign;
-	private String schoolName;
-	private String graduateYear;
-	private String className;
+    private String sessionToken;
+    private String authData;
+    private String username;
+    private String password;
+    private String mobilePhoneNumber;
+    private boolean mobilePhoneVerified;
+    private String email;
+    private boolean emailVerified;
+    private String sex;
+    private String sign;
+    private String schoolName;
+    private String graduateYear;
+    private String className;
 
-	public String getPhoneNumber() {
-		return phoneNumber;
-	}
-	public void setPhoneNumber(String phoneNumber) {
-		this.phoneNumber = phoneNumber;
-	}
-	public String getPassword() {
-		return password;
-	}
-	public void setPassword(String password) {
-		this.password = password;
-	}
-	public String getRegisterTime() {
-		return registerTime;
-	}
-	public void setRegisterTime(String registerTime) {
-		this.registerTime = registerTime;
-	}
-	public String getUserStatus() {
-		return userStatus;
-	}
-	public void setUserStatus(String userStatus) {
-		this.userStatus = userStatus;
-	}
-	public String getEmail() {
-		return email;
-	}
-	public void setEmail(String email) {
-		this.email = email;
-	}
-	public String getNick() {
-		return nick;
-	}
-	public void setNick(String nick) {
-		this.nick = nick;
-	}
-	public String getSex() {
-		return sex;
-	}
-	public void setSex(String sex) {
-		this.sex = sex;
-	}
-	public String getSign() {
-		return sign;
-	}
-	public void setSign(String sign) {
-		this.sign = sign;
-	}
-	public String getSchoolName() {
-		return schoolName;
-	}
-	public void setSchoolName(String schoolName) {
-		this.schoolName = schoolName;
-	}
-	public String getGraduateYear() {
-		return graduateYear;
-	}
-	public void setGraduateYear(String graduateYear) {
-		this.graduateYear = graduateYear;
-	}
-	public String getClassName() {
-		return className;
-	}
-	public void setClassName(String className) {
-		this.className = className;
-	}
+    public String getSessionToken() {
+        return sessionToken;
+    }
 
-	@Override
-	public String toString() {
-		return "UserModel{" +
-				"id=" + id +
-				", phoneNumber='" + phoneNumber + '\'' +
-				", password='" + password + '\'' +
-				", registerTime='" + registerTime + '\'' +
-				", email='" + email + '\'' +
-				", userStatus='" + userStatus + '\'' +
-				", nick='" + nick + '\'' +
-				", sex='" + sex + '\'' +
-				", sign='" + sign + '\'' +
-				", schoolName='" + schoolName + '\'' +
-				", graduateYear='" + graduateYear + '\'' +
-				", className='" + className + '\'' +
-				'}';
-	}
+    public void setSessionToken(String sessionToken) {
+        this.sessionToken = sessionToken;
+    }
+
+    public boolean isEmailVerified() {
+        return emailVerified;
+    }
+
+    public void setEmailVerified(boolean emailVerified) {
+        this.emailVerified = emailVerified;
+    }
+
+    public String getAuthData() {
+        return authData;
+    }
+
+    public void setAuthData(String authData) {
+        this.authData = authData;
+    }
+
+    public boolean isMobilePhoneVerified() {
+        return mobilePhoneVerified;
+    }
+
+    public void setMobilePhoneVerified(boolean mobilePhoneVerified) {
+        this.mobilePhoneVerified = mobilePhoneVerified;
+    }
+
+    public String getMobilePhoneNumber() {
+        return mobilePhoneNumber;
+    }
+
+    public void setMobilePhoneNumber(String mobilePhoneNumber) {
+        this.mobilePhoneNumber = mobilePhoneNumber;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
+    public String getSign() {
+        return sign;
+    }
+
+    public void setSign(String sign) {
+        this.sign = sign;
+    }
+
+    public String getSchoolName() {
+        return schoolName;
+    }
+
+    public void setSchoolName(String schoolName) {
+        this.schoolName = schoolName;
+    }
+
+    public String getGraduateYear() {
+        return graduateYear;
+    }
+
+    public void setGraduateYear(String graduateYear) {
+        this.graduateYear = graduateYear;
+    }
+
+    public String getClassName() {
+        return className;
+    }
+
+    public void setClassName(String className) {
+        this.className = className;
+    }
+
+    @Override
+    public String toString() {
+        return "UserModel{" +
+                "sessionToken='" + sessionToken + '\'' +
+                ", emailVerified=" + emailVerified +
+                ", authData='" + authData + '\'' +
+                ", mobilePhoneVerified=" + mobilePhoneVerified +
+                ", mobilePhoneNumber='" + mobilePhoneNumber + '\'' +
+                ", password='" + password + '\'' +
+                ", email='" + email + '\'' +
+                ", username='" + username + '\'' +
+                ", sex='" + sex + '\'' +
+                ", sign='" + sign + '\'' +
+                ", schoolName='" + schoolName + '\'' +
+                ", graduateYear='" + graduateYear + '\'' +
+                ", className='" + className + '\'' +
+                '}';
+    }
 }
