@@ -1,0 +1,1 @@
+package com.aspire.daydreaming.core.avobject;import com.avos.avoscloud.AVClassName;import com.avos.avoscloud.AVUser;/** * @Name: UserAV * @Author: yeliang * @Date: 2016/8/23 */@AVClassName("user")public class UserAV extends AVUser {}

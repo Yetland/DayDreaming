@@ -12,8 +12,21 @@ import rx.Observable;
 public interface BaseEntity {
     class BaseBean implements Serializable {
         public long id;
+        public int code;
+        public String error;
         public String objectId;
         public Map<String, String> param;
+
+        @Override
+        public String toString() {
+            return "BaseBean{" +
+                    "id=" + id +
+                    ", code=" + code +
+                    ", error='" + error + '\'' +
+                    ", objectId='" + objectId + '\'' +
+                    ", param=" + param +
+                    '}';
+        }
     }
 
     interface IListBean {

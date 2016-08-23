@@ -5,6 +5,9 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
+import com.aspire.daydreaming.core.app.DDApplication;
+import com.aspire.daydreaming.core.dagger2.component.AppComponent;
+import com.aspire.daydreaming.core.dagger2.module.ApiModule;
 import com.aspire.daydreaming.core.utils.TUtil;
 
 import butterknife.ButterKnife;
@@ -29,7 +32,13 @@ public abstract class BaseActivity<T extends BasePresenter, E extends BaseModel>
         mPresenter = TUtil.getT(this, 0);
         mModel = TUtil.getT(this, 1);
         if (this instanceof BaseView) mPresenter.setVM(this, mModel);
+        setupActivityComponent(DDApplication.get(this).getAppComponent());
         this.initView(savedInstanceState);
+    }
+    protected abstract void setupActivityComponent(AppComponent appComponent);
+
+    protected ApiModule getApiModule() {
+        return new ApiModule(this);
     }
 
 

@@ -1,0 +1,1 @@
+package com.aspire.daydreaming.core.dagger2;import javax.inject.Scope;/** * @Name: ActivityScope * @Author: yeliang * @Date: 2016/8/23 */@Scopepublic @interface ActivityScope {}

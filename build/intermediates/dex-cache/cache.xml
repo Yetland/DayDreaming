@@ -3,30 +3,12 @@
 
     <item
         is-multidex="true"
-        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.1"
-        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.0_3571a349aab39004902f5b2000889c6946cce89f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\cn.leancloud.android\avoscloud-push\v3.14.3\jars\classes.jar"
         jumboMode="true"
         optimize="false"
         revision="24.0.1"
         sha1="22f264189499d82a3b1a440835f486f425b8e034">
         <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\cn.leancloud.android-avoscloud-push-v3.14.3_93d92018f45b8ddb82020944269de80bfb2383e2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.1"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_06a4944ec825f38b5a69ddd5686546e48c721ce7\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -57,15 +39,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\Java-WebSocket\1.3.2-leancloud\169fd461930335df8099bcbac99c0f206912ced1\Java-WebSocket-1.3.2-leancloud.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.1"
-        sha1="169fd461930335df8099bcbac99c0f206912ced1">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\Java-WebSocket-1.3.2-leancloud_b721a113f16d7432eab39a6868871db64a27b6a9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
         jumboMode="true"
         optimize="false"
@@ -81,24 +54,6 @@
         revision="24.0.1"
         sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
         <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_6136f89f104905803bb68bad5160ddcc9afcb25f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.1"
-        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_8e1397db52e6acddcb9e88f99c0f78c5bc1e9e87\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.1"
-        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_d296b41e44b8ddf119a92cf1074871e9849f2f52\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -120,39 +75,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\javax.inject-1_210f914bb2112c2bc9e52bc4d36e44d578178efe\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.1"
-        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.0_bb41070c4aa017e23e63a3aa9782aa025d8f8eda\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.5\686c608d1805b6d4d425ec4459e88164ffc85870\gson-2.5.jar"
         jumboMode="true"
         optimize="false"
         revision="24.0.1"
         sha1="686c608d1805b6d4d425ec4459e88164ffc85870">
         <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.5_ce6f0683ae95771f54eb79ee174a836825e2070e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\com.google.dagger\dagger-compiler\2.0.2\1170f75c1ce293f80755bbc9fcd60e0765022bd0\dagger-compiler-2.0.2.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.1"
-        sha1="1170f75c1ce293f80755bbc9fcd60e0765022bd0">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\dagger-compiler-2.0.2_19389c0d223f6328b23b243e0f636fb8359fd5ec\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -174,15 +102,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.1"
-        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_c47684cd1a678bc8ab604e4a919afaa7ebebeeb3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\cn.leancloud.android\avoscloud-sns\v3.14.3\jars\classes.jar"
         jumboMode="true"
         optimize="false"
@@ -192,39 +111,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\fastjson\1.1.39-leancloud\94d4ebd4acdaf01d7445435382eea2d2d38e7534\fastjson-1.1.39-leancloud.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.1"
-        sha1="94d4ebd4acdaf01d7445435382eea2d2d38e7534">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\fastjson-1.1.39-leancloud_bcc3223c172c95ba3e4c43ab0217bfdc9cf53d71\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\qq-sdk\1.6.1-leancloud\896145203364b9e1d055cb81ac127bab139ad91d\qq-sdk-1.6.1-leancloud.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.1"
-        sha1="896145203364b9e1d055cb81ac127bab139ad91d">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\qq-sdk-1.6.1-leancloud_1b80fbfba2cc984b45f8d5353d1472c103b9b029\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\okhttp\2.6.0-leancloud\7d1a8dbbc128e91cf41ab6eafaa741ab2a6ff930\okhttp-2.6.0-leancloud.jar"
         jumboMode="true"
         optimize="false"
         revision="24.0.1"
         sha1="7d1a8dbbc128e91cf41ab6eafaa741ab2a6ff930">
         <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-2.6.0-leancloud_c52ba6c775092891c03b1f14c667507ab9093cc3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\com.android.databinding\adapters\1.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.1"
-        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.databinding-adapters-1.2.1_8cb9d9f4ed218f2c4445e649ec0dfcc1e705ca5f\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -246,30 +138,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.1"
-        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_a1f4cb8d082c77d5eaa2a5b8ca3d762822e3b436\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="false"
         revision="24.0.1"
-        sha1="22f4b59ce2b8108cd2de25737c9ecb67ff358aca">
+        sha1="2563b26ba25acaf31a207b7a8821d814430bc449">
         <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_950aacd6b4fad038b629bd51ecb55dd607351181\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\com.tencent.bugly\crashreport_upgrade\1.1.4\jars\classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.1"
-        sha1="fed7a58bfee51302c2ad27b01e5f7058df3de962">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.tencent.bugly-crashreport_upgrade-1.1.4_d0c6d9736fce1c9c92ab6ff090835bae8a5a0a35\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -279,24 +153,6 @@
         revision="24.0.1"
         sha1="023a79c3bbea624387e820cb2b4d5c6ba774903c">
         <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton.rxbinding-rxbinding-0.3.0_e9c12afd862ee020cc60c88bae8bae670d73705c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.1"
-        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_2e41b35cc6cfb33b0e0bb412c3503eaa826186f9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.1"
-        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_5e4853abd617bb71774eb710ac0cb2af2fcf8c53\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -324,42 +180,6 @@
         revision="24.0.1"
         sha1="8b694e6b7d2d25aa277d24417039105217b73fd5">
         <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton.rxbinding-rxbinding-design-0.3.0_7ed95e83c8081495220565517db404dc6c726866\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\com.android.databinding\library\1.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.1"
-        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.databinding-library-1.2.1_a6b177298c815d43a6d0882c817ce9d2b093b614\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.1"
-        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-7.0.1_ed32ae070ce34c867be3ed4596cd3f1d47c4e81b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.0-beta4\de5935a367ba5e343e9df786ac8fc0c7d52b5f0c\converter-gson-2.0.0-beta4.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.1"
-        sha1="de5935a367ba5e343e9df786ac8fc0c7d52b5f0c">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.0-beta4_f4493684a4802b24a4c5b1fddf48d25f47b57634\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.1\27293c440d2085cde1d859528aff6e7d3b6ae40\retrofit-2.0.1.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.1"
-        sha1="027293c440d2085cde1d859528aff6e7d3b6ae40">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.1_5df677b2ac950b122b2e91aed97c13a8626b5575\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -408,57 +228,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.1"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_6c70a34ae7629f6050d998cb897bc99f61a1dc6e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.1"
-        sha1="7f47d81929c1c76121fb68680223886f37141f22">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_27b625929b261d8c88c6ec89a6fa73e3b87ec935\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="false"
         revision="24.0.1"
         sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
         <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_f4ee97b940380ff97590b34123cdcced13d7976a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-scalars\2.0.0\b0a1e7a46e0366fc062a76d8ad7c6bb0bf68c28f\converter-scalars-2.0.0.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.1"
-        sha1="b0a1e7a46e0366fc062a76d8ad7c6bb0bf68c28f">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-scalars-2.0.0_288e346f87f0bca216414bdc518ce112d74e0d00\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.1"
-        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_6f818a6af2349ede23216770b470bf8833bb9258\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\avoscloud-sdk\v3.14.3\4f363a0a6d0d4550b257fc4ca324558e7960d802\avoscloud-sdk-v3.14.3.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.1"
-        sha1="4f363a0a6d0d4550b257fc4ca324558e7960d802">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\avoscloud-sdk-v3.14.3_82410fd2567e616e8bdf39aec199745267e3ccc8\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -486,6 +261,231 @@
         revision="24.0.1"
         sha1="d9521f2aecb909835746b7a5facf612af5e890e8">
         <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\protobuf-java-2.6.1_7af64c426415924ff25c9ee2a7965e65178d42af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.0_3571a349aab39004902f5b2000889c6946cce89f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_06a4944ec825f38b5a69ddd5686546e48c721ce7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\Java-WebSocket\1.3.2-leancloud\169fd461930335df8099bcbac99c0f206912ced1\Java-WebSocket-1.3.2-leancloud.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="169fd461930335df8099bcbac99c0f206912ced1">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\Java-WebSocket-1.3.2-leancloud_b721a113f16d7432eab39a6868871db64a27b6a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_8e1397db52e6acddcb9e88f99c0f78c5bc1e9e87\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_d296b41e44b8ddf119a92cf1074871e9849f2f52\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\javax.inject-1_210f914bb2112c2bc9e52bc4d36e44d578178efe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.0_bb41070c4aa017e23e63a3aa9782aa025d8f8eda\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\com.google.dagger\dagger-compiler\2.0.2\1170f75c1ce293f80755bbc9fcd60e0765022bd0\dagger-compiler-2.0.2.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="1170f75c1ce293f80755bbc9fcd60e0765022bd0">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\dagger-compiler-2.0.2_19389c0d223f6328b23b243e0f636fb8359fd5ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_c47684cd1a678bc8ab604e4a919afaa7ebebeeb3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\fastjson\1.1.39-leancloud\94d4ebd4acdaf01d7445435382eea2d2d38e7534\fastjson-1.1.39-leancloud.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="94d4ebd4acdaf01d7445435382eea2d2d38e7534">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\fastjson-1.1.39-leancloud_bcc3223c172c95ba3e4c43ab0217bfdc9cf53d71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\qq-sdk\1.6.1-leancloud\896145203364b9e1d055cb81ac127bab139ad91d\qq-sdk-1.6.1-leancloud.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="896145203364b9e1d055cb81ac127bab139ad91d">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\qq-sdk-1.6.1-leancloud_1b80fbfba2cc984b45f8d5353d1472c103b9b029\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\com.android.databinding\adapters\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.databinding-adapters-1.2.1_8cb9d9f4ed218f2c4445e649ec0dfcc1e705ca5f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_a1f4cb8d082c77d5eaa2a5b8ca3d762822e3b436\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\com.tencent.bugly\crashreport_upgrade\1.1.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="fed7a58bfee51302c2ad27b01e5f7058df3de962">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.tencent.bugly-crashreport_upgrade-1.1.4_d0c6d9736fce1c9c92ab6ff090835bae8a5a0a35\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_2e41b35cc6cfb33b0e0bb412c3503eaa826186f9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_5e4853abd617bb71774eb710ac0cb2af2fcf8c53\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\com.android.databinding\library\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.databinding-library-1.2.1_a6b177298c815d43a6d0882c817ce9d2b093b614\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-7.0.1_ed32ae070ce34c867be3ed4596cd3f1d47c4e81b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.0-beta4\de5935a367ba5e343e9df786ac8fc0c7d52b5f0c\converter-gson-2.0.0-beta4.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="de5935a367ba5e343e9df786ac8fc0c7d52b5f0c">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.0-beta4_f4493684a4802b24a4c5b1fddf48d25f47b57634\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.1\27293c440d2085cde1d859528aff6e7d3b6ae40\retrofit-2.0.1.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="027293c440d2085cde1d859528aff6e7d3b6ae40">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.1_5df677b2ac950b122b2e91aed97c13a8626b5575\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_6c70a34ae7629f6050d998cb897bc99f61a1dc6e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="3780b2ac2c51c17140d9f43c408ccc6a816e4a5f">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_27b625929b261d8c88c6ec89a6fa73e3b87ec935\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-scalars\2.0.0\b0a1e7a46e0366fc062a76d8ad7c6bb0bf68c28f\converter-scalars-2.0.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="b0a1e7a46e0366fc062a76d8ad7c6bb0bf68c28f">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-scalars-2.0.0_288e346f87f0bca216414bdc518ce112d74e0d00\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_6f818a6af2349ede23216770b470bf8833bb9258\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\avoscloud-sdk\v3.14.3\4f363a0a6d0d4550b257fc4ca324558e7960d802\avoscloud-sdk-v3.14.3.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="4f363a0a6d0d4550b257fc4ca324558e7960d802">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\avoscloud-sdk-v3.14.3_82410fd2567e616e8bdf39aec199745267e3ccc8\classes.dex" />
     </item>
 
 </items>
