@@ -1,0 +1,1 @@
+package com.aspire.daydreaming.bundle.myActivity;/** * @Name: MyActivityPresenter * @Author: yeliang * @Date: 2016/8/24 */public class MyActivityPresenter {}

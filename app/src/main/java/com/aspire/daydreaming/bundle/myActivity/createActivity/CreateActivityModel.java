@@ -1,0 +1,1 @@
+package com.aspire.daydreaming.bundle.myActivity.createActivity;/** * @Name: CreateActivityModel * @Author: yeliang * @Date: 2016/8/24 */public class CreateActivityModel implements CreateActivityContract.Model {}

@@ -57,6 +57,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\cn.finalteam.rxgalleryfinal\library\0.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="6d999e327ad7716a2475813d69e317178de538bc">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\cn.finalteam.rxgalleryfinal-library-0.0.2_3d165cdc84bc5955dc0e03ad6d9ce89a02c6bed2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\Android\Android Studio 2.2 BETA\gradle\m2repository\com\android\databinding\baseLibrary\2.2.0-beta1\baseLibrary-2.2.0-beta1.jar"
         jumboMode="true"
         optimize="false"
@@ -142,7 +151,7 @@
         jumboMode="true"
         optimize="false"
         revision="24.0.1"
-        sha1="2563b26ba25acaf31a207b7a8821d814430bc449">
+        sha1="af0ff1de92ca4cec9a7e266e6f5730cf721dfbc9">
         <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_950aacd6b4fad038b629bd51ecb55dd607351181\classes.dex" />
     </item>
     <item
@@ -165,15 +174,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.1\b494968f6050d494de55dc3ce005e59c7eb40012\rxjava-1.1.1.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.1"
-        sha1="b494968f6050d494de55dc3ce005e59c7eb40012">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.1.1_693097de3de4827e856ecd3c8cb4bad3b56d9fed\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\com.jakewharton.rxbinding\rxbinding-design\0.3.0\jars\classes.jar"
         jumboMode="true"
         optimize="false"
@@ -192,12 +192,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.1.0\jars\classes.jar"
+        jar="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="false"
         revision="24.0.1"
-        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
-        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.reactivex-rxandroid-1.1.0_a2fd26c419764a535f9623664039d6d257308d3b\classes.dex" />
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.reactivex-rxandroid-1.2.1_d7861232254558ebd4df1c49ee03853c034b4251\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -225,6 +225,15 @@
         revision="24.0.1"
         sha1="cce0823396aa693798f8882e64213b1772032b09">
         <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\guava-18.0_c11f2098c1b8de2197ec441506729be6ef5f24bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yeliang\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.9\e4362e62f1ba92e360b197d6d7ffae67e5ecae9a\rxjava-1.1.9.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.1"
+        sha1="e4362e62f1ba92e360b197d6d7ffae67e5ecae9a">
+        <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.1.9_338bf826c69bb8218bd229ec19a6746ad2a3f5f5\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -457,7 +466,7 @@
         jumboMode="true"
         optimize="false"
         revision="24.0.1"
-        sha1="3780b2ac2c51c17140d9f43c408ccc6a816e4a5f">
+        sha1="ef93fd75bf608346f96ecd0ce87df8b9e0e560b7">
         <dex dex="E:\ASP\PROJECT\DayDreaming\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_27b625929b261d8c88c6ec89a6fa73e3b87ec935\classes.dex" />
     </item>
     <item

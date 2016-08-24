@@ -9,6 +9,7 @@ import com.aspire.daydreaming.core.app.DDApplication;
 import com.aspire.daydreaming.core.dagger2.component.AppComponent;
 import com.aspire.daydreaming.core.dagger2.component.DaggerApiComponent;
 import com.aspire.daydreaming.core.dagger2.module.ApiModule;
+import com.aspire.daydreaming.core.utils.ActivityManager;
 import com.aspire.daydreaming.core.utils.TUtil;
 
 import butterknife.ButterKnife;
@@ -34,6 +35,9 @@ public abstract class BaseActivity<T extends BasePresenter, E extends BaseModel>
         mModel = TUtil.getT(this, 1);
         if (this instanceof BaseView) mPresenter.setVM(this, mModel);
         setupActivityComponent(DDApplication.get(this).getAppComponent());
+
+        ActivityManager.getInstance().addActivity(this);
+
         this.initView(savedInstanceState);
     }
 
@@ -54,6 +58,7 @@ public abstract class BaseActivity<T extends BasePresenter, E extends BaseModel>
         super.onDestroy();
         if (mPresenter != null) mPresenter.onDestroy();
         ButterKnife.unbind(this);
+        ActivityManager.getInstance().removeActivity(this);
     }
 
     public abstract int getLayoutId();

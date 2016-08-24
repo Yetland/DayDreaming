@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center_horizontal">
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal">
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <LinearLayout
-            android:id="@+id/retry_view"
+            android:id="@+id/ll_retry"
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -18,15 +18,15 @@
             <Button
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@mipmap/retry"
-                android:id="@+id/load_view_bt_retry"
+                android:background="@mipmap/img_error"
+                android:id="@+id/bt_retry"
                 android:layout_gravity="center"
                 android:visibility="visible" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/load_view_tv_error_message"
+                android:id="@+id/tv_error_message"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="8dp"
                 android:gravity="center_horizontal" />
@@ -36,21 +36,21 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/loading_view"
+            android:id="@+id/ll_loading"
             android:visibility="invisible">
 
             <ProgressBar
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/load_view_pg_loading"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:visibility="visible" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="@string/loading"
-                android:id="@+id/load_view_tv_loading"
+                android:id="@+id/tv_loading"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="8dp"
                 android:gravity="center_horizontal" />
@@ -60,9 +60,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:id="@+id/load_view_tv_no_result"
+            android:id="@+id/tv_no_data"
             android:layout_gravity="center_horizontal"
-            android:visibility="invisible" />
+            android:visibility="gone"
+            android:text="@string/no_data_error" />
 
     </FrameLayout>
 

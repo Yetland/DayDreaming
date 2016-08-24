@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="library-0.0.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/cn.finalteam.rxgalleryfinal/library/0.0.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/cn.finalteam.rxgalleryfinal/library/0.0.2/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.finalteam.rxgalleryfinal/library/0.0.2/277894e787ac859e884b4ddddb5df7b5190d6e5c/library-0.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

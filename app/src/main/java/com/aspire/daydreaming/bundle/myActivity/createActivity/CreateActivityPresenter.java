@@ -1,0 +1,1 @@
+package com.aspire.daydreaming.bundle.myActivity.createActivity;/** * @Name: CreateActivityPresenter * @Author: yeliang * @Date: 2016/8/24 */public class CreateActivityPresenter extends CreateActivityContract.Presenter{}

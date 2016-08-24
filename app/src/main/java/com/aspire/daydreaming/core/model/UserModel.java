@@ -7,6 +7,7 @@ import java.io.Serializable;
 
 public class UserModel extends BaseEntity.BaseBean implements Serializable {
 
+    private String avatarUrl;
     private String sessionToken;
     private String authData;
     private String username;
@@ -20,6 +21,14 @@ public class UserModel extends BaseEntity.BaseBean implements Serializable {
     private String schoolName;
     private String graduateYear;
     private String className;
+
+    public String getAvatarUrl() {
+        return avatarUrl;
+    }
+
+    public void setAvatarUrl(String avatarUrl) {
+        this.avatarUrl = avatarUrl;
+    }
 
     public String getSessionToken() {
         return sessionToken;
@@ -128,6 +137,7 @@ public class UserModel extends BaseEntity.BaseBean implements Serializable {
     @Override
     public String toString() {
         return "UserModel{" +
+                "avatarUrl='" + avatarUrl + '\'' +
                 "sessionToken='" + sessionToken + '\'' +
                 ", emailVerified=" + emailVerified +
                 ", authData='" + authData + '\'' +

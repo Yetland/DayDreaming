@@ -15,7 +15,7 @@ public interface BaseEntity {
     class BaseBean implements Serializable {
         public String objectId;
         public String updatedAt;
-        private String createdAt;
+        public String createdAt;
         public Map<String, String> param;
 
         @Override
