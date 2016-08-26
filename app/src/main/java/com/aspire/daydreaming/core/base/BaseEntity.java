@@ -5,8 +5,6 @@ import java.util.Map;
 
 import rx.Observable;
 
-import static com.avos.avoscloud.Messages.CommandType.error;
-
 /**
  * Created by yeliang
  * On 2016/7/25
@@ -16,16 +14,8 @@ public interface BaseEntity {
         public String objectId;
         public String updatedAt;
         public String createdAt;
+        public String url;
         public Map<String, String> param;
-
-        @Override
-        public String toString() {
-            return "BaseBean{" +
-                    ", error='" + error + '\'' +
-                    ", objectId='" + objectId + '\'' +
-                    ", param=" + param +
-                    '}';
-        }
     }
 
     interface IListBean {

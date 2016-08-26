@@ -1,1 +1,0 @@
-package com.aspire.daydreaming.core.model;import java.util.ArrayList;/** * @Name: Data * @Author: yeliang * @Date: 2016/8/23 */public class Data<T> {    public ArrayList<T> results;}

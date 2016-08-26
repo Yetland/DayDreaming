@@ -1,6 +1,8 @@
 package com.aspire.daydreaming.core.base;
 
+import android.annotation.TargetApi;
 import android.content.Context;
+import android.os.Build;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
@@ -16,6 +18,7 @@ public abstract class BaseViewHolder<T> extends RecyclerView.ViewHolder {
     public Context context;
 
 
+    @TargetApi(Build.VERSION_CODES.KITKAT)
     public BaseViewHolder(View itemView) {
         super(itemView);
 

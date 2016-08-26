@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.aspire.daydreaming.R;
-import com.aspire.daydreaming.core.model.ActivityModel;
+import com.aspire.daydreaming.core.model.info.ActivityInfo;
 
 import java.util.List;
 
@@ -22,10 +22,11 @@ import butterknife.ButterKnife;
 public class ActivityAdapter extends RecyclerView.Adapter<ActivityAdapter.ActivityHolder> {
 
 
-    private List<ActivityModel> activityModels;
-    private onItemClickListener onItemClickListener;
+    private List<ActivityInfo> activityModels;
+    private OnItemClickListener mOnItemClickListener;
+    private OnImageItemClickListener mOnImageItemClickListener;
 
-    public ActivityAdapter(List<ActivityModel> activityModels) {
+    public ActivityAdapter(List<ActivityInfo> activityModels) {
         this.activityModels = activityModels;
     }
 
@@ -40,7 +41,7 @@ public class ActivityAdapter extends RecyclerView.Adapter<ActivityAdapter.Activi
     @Override
     public void onBindViewHolder(ActivityHolder holder, int position) {
         holder.setData(activityModels.get(position));
-        holder.itemView.setOnClickListener(v -> onItemClickListener.onItemClick(position));
+        holder.itemView.setOnClickListener(v -> mOnItemClickListener.onItemClick(position));
     }
 
     @Override
@@ -48,11 +49,19 @@ public class ActivityAdapter extends RecyclerView.Adapter<ActivityAdapter.Activi
         return activityModels.size();
     }
 
-    public void setOnItemClickListener(ActivityAdapter.onItemClickListener onItemClickListener) {
-        this.onItemClickListener = onItemClickListener;
+    public void setOnItemClickListener(ActivityAdapter.OnItemClickListener onItemClickListener) {
+        mOnItemClickListener = onItemClickListener;
     }
 
-    public interface onItemClickListener {
+    public void setOnImageItemClickListener(ActivityAdapter.OnImageItemClickListener onImageItemClickListener) {
+        mOnImageItemClickListener = onImageItemClickListener;
+    }
+
+    public interface OnItemClickListener {
+        void onItemClick(int position);
+    }
+
+    public interface OnImageItemClickListener {
         void onItemClick(int position);
     }
 
@@ -75,12 +84,12 @@ public class ActivityAdapter extends RecyclerView.Adapter<ActivityAdapter.Activi
             ButterKnife.bind(this, itemView);
         }
 
-        public void setData(ActivityModel activityModel) {
-            schoolName.setText(activityModel.getSchoolName());
-            activityTitle.setText(activityModel.getTitle());
-            contentMessage.setText(activityModel.getContentMessage());
-            time.setText(activityModel.getCreateTime());
-            creatorName.setText(activityModel.getNick());
+        public void setData(ActivityInfo activityInfo) {
+            schoolName.setText(activityInfo.getCreator().getSchoolName());
+            activityTitle.setText(activityInfo.getTitle());
+            contentMessage.setText(activityInfo.getContentMessage());
+            time.setText(activityInfo.createdAt);
+            creatorName.setText(activityInfo.getCreator().getUsername());
         }
     }
 }
