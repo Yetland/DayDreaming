@@ -1,0 +1,1 @@
+package com.aspire.daydreaming.core.model.info;/** * @Name: RequestData * @Author: yeliang * @Date: 2016/8/29 */public class RequestData<T> {    private T t;}

@@ -25,7 +25,7 @@
             android:layout_marginLeft="8dp"
             android:gravity="center_vertical"
             android:text="湖南文理学院"
-            android:textColor="@color/themeColor"
+            android:textColor="#333333"
             android:textSize="18sp"/>
     </LinearLayout>
 
@@ -41,7 +41,9 @@
             android:layout_marginBottom="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
-            android:text="距离毕业已经有了好几个年头了，对母校甚是想念，想在2016年6月1日发起回访行动，希望大家踊跃报名。"/>
+            android:text="距离毕业已经有了好几个年头了，对母校甚是想念，想在2016年6月1日发起回访行动，希望大家踊跃报名。"
+            android:textColor="#888"
+            android:layout_marginTop="8dp"/>
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/rv_image"
@@ -62,7 +64,8 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="4dp"
             android:text="2016.5.1"
-            android:textColor="@color/themeColor"/>
+            android:textColor="#333333"
+            android:layout_gravity="center_vertical"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -75,14 +78,14 @@
                 android:id="@+id/imageView3"
                 android:layout_width="30dp"
                 android:layout_height="wrap_content"
-                android:src="@mipmap/huas"
+                android:src="@mipmap/like"
                 />
 
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="30dp"
                 android:layout_height="wrap_content"
-                android:src="@mipmap/huas"
+                android:src="@mipmap/comment"
                 />
         </LinearLayout>
 

@@ -1,0 +1,1 @@
+package com.aspire.daydreaming.bundle.test;import android.support.v7.widget.CardView;/** * @Name: CardAdapter * @Author: yeliang * @Date: 2016/8/31 */public interface CardAdapter {    int MAX_SIZE = 6;    float getBaseElevation();    CardView getCardViewAt(int position);    int getCount();}
