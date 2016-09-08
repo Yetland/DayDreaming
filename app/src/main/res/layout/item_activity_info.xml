@@ -79,14 +79,14 @@
                 android:layout_width="30dp"
                 android:layout_height="wrap_content"
                 android:src="@mipmap/like"
-                />
+                android:layout_marginRight="4dp"/>
 
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="30dp"
                 android:layout_height="wrap_content"
                 android:src="@mipmap/comment"
-                />
+                android:layout_marginLeft="4dp"/>
         </LinearLayout>
 
     </LinearLayout>
